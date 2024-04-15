@@ -1,0 +1,397 @@
+{
+  "id": "f01d81d3-c5da-4564-9cde-496b70a75a2e",
+  "version": "2.0",
+  "name": "xtramiles",
+  "url": "https://the-internet.herokuapp.com/javascript_alerts",
+  "tests": [{
+    "id": "1e3c8e8a-e4d7-4e6b-8aa0-ce2d023306c4",
+    "name": "Filter",
+    "commands": [{
+      "id": "2234d74a-b0e1-4642-a79c-75b15ce8907e",
+      "comment": "",
+      "command": "open",
+      "target": "/computers",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9048f0a3-eaaa-487e-9b06-2485a76f507c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1158x722",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b8015b8-b84c-4d06-b432-60f713360924",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchsubmit",
+      "targets": [
+        ["id=searchsubmit", "id"],
+        ["css=#searchsubmit", "css:finder"],
+        ["xpath=//input[@id='searchsubmit']", "xpath:attributes"],
+        ["xpath=//div[@id='actions']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d047782-60bf-4180-b7eb-cf46575f0cd8",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchbox",
+      "targets": [
+        ["id=searchbox", "id"],
+        ["name=f", "name"],
+        ["css=#searchbox", "css:finder"],
+        ["xpath=//input[@id='searchbox']", "xpath:attributes"],
+        ["xpath=//div[@id='actions']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9217f339-b48c-4fd2-bf2c-0daef3c6e5f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchbox",
+      "targets": [
+        ["id=searchbox", "id"],
+        ["name=f", "name"],
+        ["css=#searchbox", "css:finder"],
+        ["xpath=//input[@id='searchbox']", "xpath:attributes"],
+        ["xpath=//div[@id='actions']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2426a623-212a-4829-bbf5-9dc708fdfc38",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchbox",
+      "targets": [
+        ["id=searchbox", "id"],
+        ["name=f", "name"],
+        ["css=#searchbox", "css:finder"],
+        ["xpath=//input[@id='searchbox']", "xpath:attributes"],
+        ["xpath=//div[@id='actions']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "asci"
+    }, {
+      "id": "1d951134-0eb1-4f30-9a08-756d4db7105f",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchsubmit",
+      "targets": [
+        ["id=searchsubmit", "id"],
+        ["css=#searchsubmit", "css:finder"],
+        ["xpath=//input[@id='searchsubmit']", "xpath:attributes"],
+        ["xpath=//div[@id='actions']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ace5bf3-416b-4982-b09d-cbe2aeac5296",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ASCI Blue Pacific",
+      "targets": [
+        ["linkText=ASCI Blue Pacific", "linkText"],
+        ["css=tr:nth-child(2) a", "css:finder"],
+        ["xpath=//a[contains(text(),'ASCI Blue Pacific')]", "xpath:link"],
+        ["xpath=//section[@id='main']/table/tbody/tr[2]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/computers/313')]", "xpath:href"],
+        ["xpath=//tr[2]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ASCI Blue Pacific')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaa7af83-238f-4394-98dc-00b668deb9db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cancel",
+      "targets": [
+        ["linkText=Cancel", "linkText"],
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancel')]", "xpath:link"],
+        ["xpath=//section[@id='main']/form/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/computers')])[2]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eba61de4-4af3-497e-9b80-ad935a44fbdb",
+    "name": "Add new computer",
+    "commands": [{
+      "id": "bb307c62-b028-45f5-b607-f8b9e3ff9771",
+      "comment": "",
+      "command": "open",
+      "target": "/computers",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00609075-b55e-448d-9719-c161cf6ec1f1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1158x722",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e619204f-8175-4e11-95a1-c997b517e388",
+      "comment": "",
+      "command": "click",
+      "target": "id=add",
+      "targets": [
+        ["id=add", "id"],
+        ["linkText=Add a new computer", "linkText"],
+        ["css=#add", "css:finder"],
+        ["xpath=//a[contains(text(),'Add a new computer')]", "xpath:link"],
+        ["xpath=//a[@id='add']", "xpath:attributes"],
+        ["xpath=//div[@id='actions']/form/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/computers/new')]", "xpath:href"],
+        ["xpath=//form/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add a new computer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55e19a6c-5734-4509-8ded-e9eeac67cd6a",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f439e0e6-fac0-4271-bf01-fcb301af951d",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Anas"
+    }, {
+      "id": "40ea0d6b-f814-42f7-b03c-f0e85c594beb",
+      "comment": "",
+      "command": "click",
+      "target": "id=introduced",
+      "targets": [
+        ["id=introduced", "id"],
+        ["name=introduced", "name"],
+        ["css=#introduced", "css:finder"],
+        ["xpath=//input[@id='introduced']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/form/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71ab0910-b849-40a6-9743-38627fd30472",
+      "comment": "",
+      "command": "type",
+      "target": "id=introduced",
+      "targets": [
+        ["id=introduced", "id"],
+        ["name=introduced", "name"],
+        ["css=#introduced", "css:finder"],
+        ["xpath=//input[@id='introduced']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/form/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2024-04-15"
+    }, {
+      "id": "a6e6f8c9-17cb-4780-8cfb-48b3affcb81e",
+      "comment": "",
+      "command": "click",
+      "target": "id=company",
+      "targets": [
+        ["id=company", "id"],
+        ["name=company", "name"],
+        ["css=#company", "css:finder"],
+        ["xpath=//select[@id='company']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/form/fieldset/div[4]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b35d6a7-6cea-4149-97c6-f9c2b8b12935",
+      "comment": "",
+      "command": "select",
+      "target": "id=company",
+      "targets": [],
+      "value": "label=IBM"
+    }, {
+      "id": "0923fb0b-f333-4b9c-90ef-4f85aed4c7ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primary",
+      "targets": [
+        ["css=.primary", "css:finder"],
+        ["xpath=//input[@value='Create this computer']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "73e5b6d6-b181-4486-a825-5db70b7e412c",
+    "name": "javascript alert",
+    "commands": [{
+      "id": "6f5d5772-e1e0-4ef6-875a-9ff7bc2a333d",
+      "comment": "",
+      "command": "open",
+      "target": "https://the-internet.herokuapp.com/javascript_alerts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42e8b89c-9e7b-429a-942b-66074ff2149c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1158x722",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0af00c93-d110-4c77-87d4-93131b603a78",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > button",
+      "targets": [
+        ["css=li:nth-child(1) > button", "css:finder"],
+        ["xpath=//button[@onclick='jsAlert()']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Click for JS Alert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de6378d9-aeb0-4c42-aa6e-73c3963fe026",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "I am a JS Alert",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be3f527c-47ce-4da2-a89f-d9d4443b563f",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55ba79f3-0ee6-41fc-b702-3b21f143a80f",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > button",
+      "targets": [
+        ["css=li:nth-child(2) > button", "css:finder"],
+        ["xpath=//button[@onclick='jsConfirm()']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Click for JS Confirm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14da8bf7-87c4-48ea-9f78-772076a9cdb7",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "I am a JS Confirm",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b54701e8-dff1-40b2-a1b8-0f1d1276d771",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2de8e828-b213-40b7-a26d-460dae931220",
+      "comment": "",
+      "command": "answerOnNextPrompt",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19a87648-16d5-43a1-9fe2-fb539033a853",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > button",
+      "targets": [
+        ["css=li:nth-child(3) > button", "css:finder"],
+        ["xpath=//button[@onclick='jsPrompt()']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Click for JS Prompt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecdd4442-b919-4b3d-be8d-12dc2a5d4dbc",
+      "comment": "",
+      "command": "assertPrompt",
+      "target": "I am a JS prompt",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52a2ab7c-b9ad-43b1-91ac-9fa6fd9ec99a",
+      "comment": "",
+      "command": "webdriverAnswerOnVisiblePrompt",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "385244d6-e5b5-45ac-a7de-214cf9da69c7",
+      "comment": "",
+      "command": "answerOnNextPrompt",
+      "target": "Anas",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f8657a3-6464-4408-84ea-95b35c93ccf6",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > button",
+      "targets": [
+        ["css=li:nth-child(3) > button", "css:finder"],
+        ["xpath=//button[@onclick='jsPrompt()']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Click for JS Prompt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "082ab62b-7681-46a8-8fc9-ee2c14a55be2",
+      "comment": "",
+      "command": "assertPrompt",
+      "target": "I am a JS prompt",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "539f8412-72c1-42ea-8496-e7e61fa540b8",
+      "comment": "",
+      "command": "webdriverAnswerOnVisiblePrompt",
+      "target": "Anas",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "77449115-ecd3-430e-a7f3-34e3f29c25af",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1e3c8e8a-e4d7-4e6b-8aa0-ce2d023306c4"]
+  }],
+  "urls": ["https://computer-database.gatling.io/", "https://the-internet.herokuapp.com/javascript_alerts"],
+  "plugins": []
+}
