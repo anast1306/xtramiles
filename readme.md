@@ -1,2 +1,2 @@
-For test scenario please check document Xtramiles.txt
-Before running the script please make sure in google chrome have version Selenium.WebDriver.ChromeDriver
+For test scenario please check document Xtramiles.xls
+Before running the automation script please make sure in google chrome have same version Selenium.WebDriver.ChromeDriver
